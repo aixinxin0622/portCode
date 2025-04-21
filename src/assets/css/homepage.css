@@ -1,0 +1,234 @@
+.enterprise {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.enterprise-info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.enterprise-info-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 220px;
+  background: url('@/assets/image/bg.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.enterprise-info-card {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 351px;
+  margin-top: 40px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px 0 rgb(100 101 102 / 20%);
+}
+
+.company {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 327px;
+  margin-top: 12px;
+}
+
+.company-icon-hy {
+  background: url('@/assets/image/shipEnterprise/zjtx.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.company-icon-gk {
+  background: url('@/assets/image/portEnterprise/companyIcon.png') no-repeat;
+  background-size: 100% 100%;
+  scale: 1.3;
+}
+
+.company-icon {
+  width: 52px;
+  height: 52px;
+}
+
+.company-text {
+  display: flex;
+  flex-direction: column;
+  width: 267px;
+  margin-left: 8px;
+}
+
+.text-con {
+  font-size: 18px;
+  font-weight: 600;
+  color: #094076;
+}
+
+.company-tip {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 4px;
+}
+
+.company-tip div {
+  padding: 5px;
+  margin-top: 4px;
+  margin-left: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #1989fa;
+  background: #e7f3fe;
+  border-radius: 2px;
+}
+
+.line {
+  width: 327px;
+  height: 0;
+  margin-top: 12px;
+  border: 1px solid #f2f3f5;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 327px;
+  margin-top: 12px;
+}
+
+.company-info-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.xydm {
+  background: url('@/assets/image/xydm.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.zczb {
+  background: url('@/assets/image/zczb.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.xydj {
+  background: url('@/assets/image/xydj.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.glsp {
+  background: url('@/assets/image/glsp.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.item-text {
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4e5969;
+}
+
+.item-con {
+  margin-left: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1d2129;
+}
+
+.func-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+}
+
+.func-btn-item {
+  width: 351px;
+  margin-top: 24px;
+}
+
+.func-btn-title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.func-btn-title div:nth-child(1) {
+  width: 4px;
+  height: 16px;
+  background: #1989fa;
+  border-radius: 40px;
+}
+
+.func-btn-title div:nth-child(2) {
+  margin-left: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1d2129;
+}
+
+.func-btn-button {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.func-btn-button-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 88px;
+  margin-right: 18px;
+}
+
+.qyjbxx {
+  background: url('@/assets/image/basicInfo.png') no-repeat;
+}
+
+.jycb {
+  background: url('@/assets/image/shipEnterprise/jycb.png') no-repeat;
+}
+
+.gkss {
+  background: url('@/assets/image/portEnterprise/gkss.png') no-repeat;
+}
+
+.rysq {
+  background: url('@/assets/image/rysq.png') no-repeat;
+}
+
+.rysp {
+  background: url('@/assets/image/rysp.png') no-repeat;
+}
+
+.func-btn-button-item-icon {
+  width: 44px;
+  height: 44px;
+  margin-top: 24px;
+  background-size: 100% 100%;
+}
+
+.func-btn-button-item-text {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #323233;
+}

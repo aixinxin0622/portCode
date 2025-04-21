@@ -1,0 +1,155 @@
+.basicinfo {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.basicinfo-item-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 94%;
+  margin-top: 24px;
+  margin-left: 3%;
+}
+
+.basicinfo-item-title-bulesquare {
+  width: 4px;
+  height: 15px;
+  background: #1989fa;
+  border-radius: 0;
+}
+
+.basicinfo-item-title-name {
+  margin-left: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #042343;
+}
+
+.basicinfo-item-content {
+  width: 94%;
+  padding: 0 3%;
+  margin-top: 12px;
+}
+
+.portequip-content {
+  height: 92%;
+  padding: 0;
+  margin-left: 3%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.portequip-content::-webkit-scrollbar {
+  display: none;
+}
+
+.public-content {
+  width: 100%;
+  height: calc(100% - 24px);
+  padding: 0;
+  margin-top: 24px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.public-content::-webkit-scrollbar {
+  display: none;
+}
+
+.content-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 8px 0;
+  border-bottom: 1px solid #f3f8ff;
+}
+
+.content-item div {
+  font-size: 14px;
+}
+
+.content-item-icon {
+  width: 16px;
+  height: 16px;
+  background: url('@/assets/image/shipEnterprise/personnel.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.content-item-title {
+  flex-shrink: 0;
+  width: 84px;
+  font-weight: 500;
+  color: #1d2129;
+}
+
+.content-item-content {
+  margin-left: 15px;
+  font-weight: 400;
+  color: #4e5969;
+}
+
+.license-filing-info-content-card {
+  width: 94%;
+  padding: 12px 3%;
+  margin-bottom: 12px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgb(100 101 102 / 6%);
+}
+
+.card-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+.card-item-name {
+  flex-shrink: 0;
+  width: 84px;
+  font-weight: 500;
+  color: #1d2129;
+}
+
+.card-item-con {
+  margin-left: 8px;
+  font-weight: 400;
+  color: #4e5969;
+}
+
+.zheng {
+  width: 24px;
+  height: 24px;
+  background: url('@/assets/image/zheng.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.zheng-text,
+.query-berth-name {
+  margin-left: 8px;
+  font-size: 16px;
+  color: #ee0a24;
+}
+
+.zheng-text {
+  font-weight: 500;
+}
+
+.filestyle {
+  color: #1989fa;
+  text-decoration: underline;
+}
+
+.query-berth-icon {
+  width: 24px;
+  height: 24px;
+  background: url('../image/portEnterprise/name_icon.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.query-berth-name {
+  font-weight: 600;
+}
